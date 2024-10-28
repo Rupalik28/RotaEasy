@@ -1,0 +1,56 @@
+/* Example styles */
+.example-controls-container {
+    margin-bottom: 20px;
+}
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.console {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.red-background {background-color: rgb(245, 178, 178) !important; }
+.grey-background { background-color: rgb(201, 201, 201) !important; }
+.orange-background { background-color: rgb(254, 213, 137) !important; }
+.light-blue-background { background-color: rgb(219, 246, 255) !important; }
+.yellow-background { background-color: rgb(255, 255, 160) !important; }
+.blue-background { background-color: rgb(181, 181, 254) !important; }
+.sky-blue-background { background-color: skyblue !important; }
+.default-background { background-color: rgb(235, 245, 249) !important; }
+
+.filter-controls {
+    margin: 10px;
+    text-align: center;
+}
+
+.filter-controls label {
+    margin: 0 5px;
+}
+
+.filter-controls input, .filter-controls select {
+    margin: 0 5px;
+}
+
+.bold {
+    font-weight: bold !important;
+    background-color: rgb(184, 227, 244) !important;
+}
+
+.value-row {
+    display: flex;           /* Use flexbox for horizontal alignment */
+    overflow-x: auto;       /* Enable horizontal scrolling */
+    white-space: nowrap;     /* Prevent line breaks */
+}
+.value-counts {
+    margin-right: 5px;     /* Space between employee counts */
+    border: 1px solid #ccc; /* Optional: Add border for better visibility */
+    padding: 5px;           /* Optional: Add some padding */
+    border-radius: 4px;     /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+}
+
+.highlight {
+    background-color: #ffe58f; /* Change this to your preferred highlight color */
+}

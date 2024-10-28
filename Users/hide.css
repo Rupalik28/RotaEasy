@@ -1,0 +1,19 @@
+#add-row, 
+#add-column, 
+#autosaveLabel, 
+#save, 
+#clear-filters-button, 
+#sidebarToggle, 
+#layoutSidenav_nav, 
+#export-button,
+#layoutSidenav_content{
+    display: none;
+}
+
+.navbar-nav, .ms-auto, .ms-md-0, .me-3, .me-lg-4{
+    display: none;
+}
+
+.sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
+    display: none;
+}
